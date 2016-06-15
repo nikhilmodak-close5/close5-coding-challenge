@@ -1,25 +1,20 @@
 {
   "name": "close5-coding-challenge",
-  "private": true,
   "version": "0.0.0",
   "description": "close5 code challenge",
-  "keywords": [],
-  "dependencies": {
-    "ejs": "2.3.4",
-    "include-all": "~0.1.6",
-    "rc": "1.0.1",
-    "sails": "~0.12.3",
-    "sails-disk": "~0.10.9"
-  },
-  "scripts": {
-    "debug": "node debug app.js",
-    "start": "node app.js"
-  },
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node ./test/API-test"
+  },
+  "author": "nikhilmodak-close5",
+  "license": "",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.13.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nikhilmodak-close5/close5-coding-challenge"
   },
-  "author": "nikhilmodak-close5",
-  "license": ""
 }
