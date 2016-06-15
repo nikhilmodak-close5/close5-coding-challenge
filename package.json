@@ -2,7 +2,7 @@
   "name": "close5-coding-challenge",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "close5 code challenge",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -18,7 +18,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhilmodak-close5/close5-code-challenge"
+    "url": "https://github.com/nikhilmodak-close5/close5-coding-challenge"
   },
   "author": "nikhilmodak-close5",
   "license": ""

@@ -41,7 +41,6 @@ module.exports = {
    * @description Search items for given location and range
    */
   searchRange: function (loc, range) {
-    var loc;
     if (_.isArray(loc)) {
       loc = [merc.x(Number(loc[0])), merc.y(Number(loc[1]))];
     } else if (_.isString(loc) && loc.indexOf(',') > -1) {
